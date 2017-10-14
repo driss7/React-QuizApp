@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #e4ecf1;
+  height: 50px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.question-box {
+  max-width: 760px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px  #888888;
+  height: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+}
+
+button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3498db;
+  padding: 7px 19px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-button {
+  float: left;
+}
+
+.question-answers {
+  margin: 50px;
+}
+
+.back-button {
+  -webkit-border-radius: 10;
+  flex: 100%;
+  float: left;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #3498db;
+  padding: 7px 19px 10px 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.back-button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.q-a {
+  padding: 20px;
+}
+.q-a__q {
+  margin: 50px;
+}
+
